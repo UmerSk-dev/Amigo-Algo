@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Get on the list &mdash; Algo Amigo
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="grain">
+  </div>
+  <header class="nav wrap">
+   <a class="brand" href="index.html">
+    <span class="brand-mark">
+     a
+    </span>
+    algo amigo
+   </a>
+   <button aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle">
+    ☰
+   </button>
+   <nav aria-label="Main navigation" class="nav-links">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="schedule.html">
+     The experience
+    </a>
+    <a href="explore.html">
+     Explore
+    </a>
+    <a class="active nav-cta" href="register.html">
+     Get on the list
+     <span>
+      &nearrow;
+     </span>
+    </a>
+   </nav>
+  </header>
+  <main class="wrap inner-page register-layout">
+   <div class="register-copy">
+    <div class="eyebrow">
+     <span class="pulse">
+     </span>
+     YOUR INVITATION STARTS HERE
+    </div>
+    <h1>
+     Save your
+     <br/>
+     <em>
+      seat at
+     </em>
+     <br/>
+     the table.
+    </h1>
+    <p class="page-lead">
+     Tell us a little about yourself. We'll send the event details when they're ready. No spam, just the good stuff.
+    </p>
+    <div class="register-stamp">
+     <span>
+      ALGO
+     </span>
+     <b>
+      AMIGO
+     </b>
+     <span>
+      BUILT TOGETHER &middot; 2026
+     </span>
+    </div>
+   </div>
+   <section class="form-card">
+    <div class="eyebrow muted">
+     01 / I'M INTERESTED
+    </div>
+    <h2>
+     Let's make
+     <br/>
+     <em>
+      it official-ish.
+     </em>
+    </h2>
+    <form id="rsvp-form">
+     <label for="name">
+      Your name
+      <span>
+       *
+      </span>
+     </label>
+     <input autocomplete="name" id="name" name="name" placeholder="Ada Lovelace" required=""/>
+     <label for="email">
+      Email address
+      <span>
+       *
+      </span>
+     </label>
+     <input autocomplete="email" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     <label for="year">
+      Where are you in your journey?
+     </label>
+     <select id="year" name="year">
+      <option value="Not specified">
+       Pick your stage
+      </option>
+      <option>
+       First year
+      </option>
+      <option>
+       Second year
+      </option>
+      <option>
+       Third year
+      </option>
+      <option>
+       Final year
+      </option>
+      <option>
+       Graduate / working
+      </option>
+      <option>
+       Just curious
+      </option>
+     </select>
+     <label for="interest">
+      What are you curious about?
+     </label>
+     <select id="interest" name="interest">
+      <option value="Not specified">
+       Choose a rabbit hole
+      </option>
+      <option>
+       Algorithms &amp; problem solving
+      </option>
+      <option>
+       Web development
+      </option>
+      <option>
+       AI &amp; machine learning
+      </option>
+      <option>
+       Open source
+      </option>
+      <option>
+       Design &amp; creative coding
+      </option>
+      <option>
+       Meeting fellow builders
+      </option>
+     </select>
+     <button class="button button-lime button-wide" type="submit">
+      Save me a spot
+      <span>
+       &nearrow;
+      </span>
+     </button>
+     <p class="form-privacy">
+      By signing up, you agree to receive event updates. Your details stay with the organizers.
+     </p>
+     <div aria-live="polite" class="form-status" id="rsvp-status" role="status">
+     </div>
+    </form>
+   </section>
+  </main>
+  <footer class="footer wrap">
+   <a class="brand" href="index.html">
+    <span class="brand-mark">
+     a
+    </span>
+    algo amigo
+   </a>
+   <p>
+    Built for curious people, by curious people.
+   </p>
+   <div>
+    <a href="schedule.html">
+     Experience
+    </a>
+    <a href="explore.html">
+     Explore API
+    </a>
+    <a href="register.html">
+     Register
+    </a>
+   </div>
+   <small>
+    &copy; 2026 ALGO AMIGO &middot; KEEP IT CURIOUS.
+   </small>
+  </footer>
+  <script src="app.js">
+  </script>
+ </body>
+</html>
