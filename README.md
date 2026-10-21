@@ -14,6 +14,7 @@ The site uses a dark editorial look, vivid lime accents, oversized typography, s
 - **Backend demo:** Node.js and Express expose health, RSVP, and feedback endpoints. RSVP data is saved to `data.json`.
 - **Consistent formatting:** Prettier configuration and formatting scripts are included.
 
+
 ## Tech stack
 
 - HTML, CSS, and vanilla JavaScript
